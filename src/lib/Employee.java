@@ -10,14 +10,11 @@ public class Employee {
 
 	
 
-	private LocalDate joinedDate;
 	private int monthWorkingInYear;
 	
 	private Personal personal
 	
-	private int monthlySalary;
-	private int otherMonthlyIncome;
-	private int annualDeductible;
+	private Employement Employement;
 	
 	private String spouseName;
 	private String spouseIdNumber;

@@ -11,4 +11,23 @@ public class Employement{
         this.otherMonthlyIncome=otherMonthlyIncome;
         this.annualDeductible=annualDeductible;
     }
+    public int getYear() {
+        return joinedDate.getYear();
+    }
+
+    public int getMonth() {
+        return joinedDate.getMonthValue();
+    }
+
+    public int getMonthlySalary() {
+        return monthlySalary;
+    }
+
+    public int getOtherMonthlyIncome() {
+        return otherMonthlyIncome;
+    }
+
+    public int getAnnualDeductible() {
+        return annualDeductible;
+    }
 }

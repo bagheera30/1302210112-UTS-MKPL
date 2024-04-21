@@ -16,11 +16,7 @@ public class Employee {
 	
 	private Employement Employement;
 	
-	private String spouseName;
-	private String spouseIdNumber;
-
-	private List<String> childNames;
-	private List<String> childIdNumbers;
+	private Farm family
 	
 	
 	

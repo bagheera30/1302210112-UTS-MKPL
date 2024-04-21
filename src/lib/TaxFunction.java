@@ -15,9 +15,10 @@ public class TaxFunction {
 	 */
 	
 	
-	 public static int calculateTax(Employment employment, Family family){
+	 public static int calculateTax(Employment employment, Family family,int numberOfMonthWorking){
 		
 		int tax = 0;
+		int numberOfChildren = family.getChildIdNumbers();
 		final int deductibleA = 54000000;
 		final int deductibleB = 4500000;
 		final int deductibleC = 1500000;

@@ -15,7 +15,7 @@ public class TaxFunction {
 	 */
 	
 	
-	public static int calculateTax(int monthlySalary, int otherMonthlyIncome, int numberOfMonthWorking, int deductible, boolean isMarried, int numberOfChildren) {
+	 public static int calculateTax(Employment employment, Family family){
 		
 		int tax = 0;
 		final int deductibleA = 54000000;

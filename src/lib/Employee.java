@@ -22,7 +22,7 @@ public class Employee {
 	
 
 	
-	public Employee(Personal personalInfo, Employment employmentInfo, Family familyInfo) {
+	public Employee(Personal personalInfo, Employment employmentInfo, Farm familyInfo) {
 		this.personal = personalInfo;
 		this.employment = employmentInfo;
 		this.family = familyInfo;
@@ -59,7 +59,6 @@ public class Employee {
 			monthWorkingInYear = 12;
 		}
 		
-		return TaxFunction.calculateTax(employment.getMonthlySalary(), employment.getOtherMonthlyIncome(), monthWorkingInYear, employment.getAnnualDeductible(), family.getSpouseIdNumber().equals(""), family
-		.getChildIdNumbers());
+		return TaxFunction.calculateTax(employment, family, monthWorkingInYear);
 	}
 }

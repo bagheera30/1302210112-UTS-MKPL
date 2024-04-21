@@ -16,11 +16,7 @@ public class Employee {
 	
 	private Employement Employement;
 	
-	private String spouseName;
-	private String spouseIdNumber;
-
-	private List<String> childNames;
-	private List<String> childIdNumbers;
+	
 	
 	
 	
@@ -52,15 +48,7 @@ public class Employee {
 		this.otherMonthlyIncome = income;
 	}
 	
-	public void setSpouse(String spouseName, String spouseIdNumber) {
-		this.spouseName = spouseName;
-		this.spouseIdNumber = idNumber;
-	}
 	
-	public void addChild(String childName, String childIdNumber) {
-		childNames.add(childName);
-		childIdNumbers.add(childIdNumber);
-	}
 	
 	public int getAnnualIncomeTax() {
 		
